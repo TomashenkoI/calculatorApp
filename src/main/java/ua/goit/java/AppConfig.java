@@ -16,4 +16,10 @@ public class AppConfig {
         return runner;
     }
 
+    @Bean
+    LogAspect logAspect() {
+        LogAspect logAspect = new LogAspect();
+        return logAspect;
+    }
+
 }
